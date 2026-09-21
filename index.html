@@ -41,10 +41,8 @@
     --c-politics:#a026c9;
     --c-general:#0f9d68;
     --c-travel:#e08a1e;
-    --c-urban:#0aa7c2;
     --c-cross:#5b3df0;
     --c-cities:#d1447a;
-    --c-next:#63626f;
     color-scheme: light;
   }
   @media (prefers-color-scheme: dark){
@@ -74,10 +72,8 @@
       --c-politics:#d47bec;
       --c-general:#4fd39a;
       --c-travel:#f0b15a;
-      --c-urban:#5fd3e8;
       --c-cross:#9c85ff;
       --c-cities:#ff8fbd;
-      --c-next:#a29fb3;
       color-scheme: dark;
     }
   }
@@ -108,7 +104,7 @@
   }
   header.topbar::after{
     content:"";position:absolute;left:0;right:0;bottom:-3px;height:3px;
-    background:linear-gradient(90deg,var(--c-kz),var(--c-politics),var(--c-general),var(--c-travel),var(--c-urban));
+    background:linear-gradient(90deg,var(--c-kz),var(--c-politics),var(--c-general),var(--c-travel));
     opacity:.9;
   }
   .topbar-inner{
@@ -145,7 +141,6 @@
   .ds-btn[data-ds="politics"]{--dot:var(--c-politics);}
   .ds-btn[data-ds="general"]{--dot:var(--c-general);}
   .ds-btn[data-ds="travel"]{--dot:var(--c-travel);}
-  .ds-btn[data-ds="urban"]{--dot:var(--c-urban);}
   .ds-btn:hover:not(:disabled){color:var(--text);border-color:var(--border-strong);transform:translateY(-1px);}
   .ds-btn.active{background:var(--dot,var(--accent));color:#fff;border-color:transparent;box-shadow:var(--shadow);}
   .ds-btn.active::before{background:#fff;}
@@ -370,7 +365,6 @@
   #rc-sec-travel,.rc-toc a[data-jump="rc-sec-travel"]{--sc:var(--c-travel);}
   #rc-sec-cross,.rc-toc a[data-jump="rc-sec-cross"]{--sc:var(--c-cross);}
   #rc-sec-cities,.rc-toc a[data-jump="rc-sec-cities"]{--sc:var(--c-cities);}
-  #rc-sec-next,.rc-toc a[data-jump="rc-sec-next"]{--sc:var(--c-next);}
   .rc-toc a{border-left:3px solid var(--sc,transparent);}
   .rc-section{margin:34px 0;}
   .rc-section-title{
@@ -462,7 +456,6 @@
       <a href="javascript:void(0)" data-jump="rc-sec-travel">Тревел</a>
       <a href="javascript:void(0)" data-jump="rc-sec-cross">Что подтвердилось везде</a>
       <a href="javascript:void(0)" data-jump="rc-sec-cities">Города: прицельный вывод</a>
-      <a href="javascript:void(0)" data-jump="rc-sec-next">Что дальше</a>
     </nav>
     <div id="reportRoot">
 
@@ -717,27 +710,6 @@
             <div class="rc-stat-row"></div>
             <button class="link-btn report-drill" data-ds="travel" data-route="videos|theme|4|from|rc-city-treshikrasota">Смотреть эти видео →</button>
           </div>
-        </article>
-
-        <article class="rc-card" id="rc-city-urban-hero">
-          <div class="rc-kicker"></div>
-          <h3 class="rc-thesis"></h3>
-          <p class="rc-explain"></p>
-        </article>
-      </div>
-
-      <!-- ===== Что дальше ===== -->
-      <div class="rc-section" id="rc-sec-next">
-        <h2 class="rc-section-title"></h2>
-        <article class="rc-card" id="rc-next-urban">
-          <div class="rc-kicker"></div>
-          <h3 class="rc-thesis"></h3>
-          <p class="rc-explain"></p>
-        </article>
-        <article class="rc-card" id="rc-next-other">
-          <div class="rc-kicker"></div>
-          <h3 class="rc-thesis"></h3>
-          <p class="rc-explain"></p>
         </article>
       </div>
 
