@@ -1241,10 +1241,17 @@
       var thesisEl = cardEl.querySelector('.rc-thesis');
       var explainEl = cardEl.querySelector('.rc-explain');
       var noteEl = cardEl.querySelector('.rc-note');
+      var actionEl = cardEl.querySelector('.rc-action');
       if (kickerEl && c.kicker) kickerEl.innerHTML = c.kicker;
       if (thesisEl && c.thesis) thesisEl.innerHTML = c.thesis;
       if (explainEl && c.explain) explainEl.innerHTML = c.explain;
       if (noteEl && c.note) noteEl.innerHTML = c.note;
+      if (actionEl && c.action) {
+        var isDont = c.action.type === 'dont';
+        actionEl.classList.toggle('rc-action-dont', isDont);
+        actionEl.innerHTML = '<span class="rc-action-label">Что делать?</span>' +
+          (isDont ? '⨯ ' : '→ ') + escapeHtml(c.action.text);
+      }
     });
   }
 

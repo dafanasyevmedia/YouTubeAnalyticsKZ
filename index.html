@@ -43,6 +43,7 @@
     --c-travel:#e08a1e;
     --c-cross:#5b3df0;
     --c-cities:#d1447a;
+    --c-methodology:#6b7280;
     color-scheme: light;
   }
   @media (prefers-color-scheme: dark){
@@ -74,6 +75,7 @@
       --c-travel:#f0b15a;
       --c-cross:#9c85ff;
       --c-cities:#ff8fbd;
+      --c-methodology:#9aa1ad;
       color-scheme: dark;
     }
   }
@@ -365,6 +367,7 @@
   #rc-sec-travel,.rc-toc a[data-jump="rc-sec-travel"]{--sc:var(--c-travel);}
   #rc-sec-cross,.rc-toc a[data-jump="rc-sec-cross"]{--sc:var(--c-cross);}
   #rc-sec-cities,.rc-toc a[data-jump="rc-sec-cities"]{--sc:var(--c-cities);}
+  #rc-sec-methodology,.rc-toc a[data-jump="rc-sec-methodology"]{--sc:var(--c-methodology);}
   .rc-toc a{border-left:3px solid var(--sc,transparent);}
   .rc-section{margin:34px 0;}
   .rc-section-title{
@@ -397,6 +400,10 @@
   .rc-chart{margin:11px 0 4px;max-width:600px;}
   .rc-chart .barchart-bars{height:88px;}
   .rc-note{font-size:13.5px;color:var(--text-faint);margin-top:7px;max-width:800px;line-height:1.5;}
+  .rc-action{margin-top:14px;padding:10px 14px;border-radius:10px;max-width:800px;font-size:14px;line-height:1.5;background:var(--success-soft);border:1px solid var(--success);}
+  .rc-action-dont{background:var(--danger-soft);border-color:var(--danger);}
+  .rc-action-label{font-weight:800;text-transform:uppercase;font-size:11px;letter-spacing:.03em;color:var(--success);margin-right:6px;}
+  .rc-action-dont .rc-action-label{color:var(--danger);}
   .rc-badge-todo{display:inline-block;background:var(--warn-soft);color:var(--warn);border-radius:999px;padding:3px 10px;font-size:12.5px;font-weight:700;margin-left:8px;vertical-align:middle;}
   .rc-two-bar{display:flex;align-items:flex-end;gap:16px;}
   .rc-two-bar .tb-col{display:flex;flex-direction:column;align-items:center;gap:5px;width:80px;}
@@ -456,6 +463,7 @@
       <a href="javascript:void(0)" data-jump="rc-sec-travel">Тревел</a>
       <a href="javascript:void(0)" data-jump="rc-sec-cross">Что подтвердилось везде</a>
       <a href="javascript:void(0)" data-jump="rc-sec-cities">Города: прицельный вывод</a>
+      <a href="javascript:void(0)" data-jump="rc-sec-methodology">Методика</a>
     </nav>
     <div id="reportRoot">
 
@@ -472,6 +480,7 @@
             <div class="rc-stat-row"></div>
             <button class="link-btn report-drill" data-ds="kz" data-route="videos|theme|7|from|rc-kz-regions">Смотреть эти видео в таблице →</button>
           </div>
+                  <p class="rc-action"></p>
         </article>
 
         <article class="rc-card" id="rc-kz-cities-saturated">
@@ -482,6 +491,7 @@
             <div class="rc-stat-row"></div>
             <button class="link-btn report-drill" data-ds="kz" data-route="videos|theme|5|from|rc-kz-cities-saturated">Смотреть эти видео в таблице →</button>
           </div>
+                  <p class="rc-action"></p>
         </article>
 
         <article class="rc-card" id="rc-kz-migration">
@@ -492,6 +502,7 @@
             <div class="rc-stat-row"></div>
             <button class="link-btn report-drill" data-ds="kz" data-route="videos|theme|10|from|rc-kz-migration">Смотреть эти видео в таблице →</button>
           </div>
+                  <p class="rc-action"></p>
         </article>
 
         <article class="rc-card" id="rc-kz-incidents">
@@ -502,6 +513,7 @@
             <div class="rc-stat-row"></div>
             <button class="link-btn report-drill" data-ds="kz" data-route="videos|theme|11|from|rc-kz-incidents">Смотреть эти видео в таблице →</button>
           </div>
+                  <p class="rc-action"></p>
         </article>
       </div>
 
@@ -518,6 +530,7 @@
             <div class="rc-stat-row"></div>
             <button class="link-btn report-drill" data-ds="politics" data-route="videos|theme|7|from|rc-politics-emigration">Смотреть эти видео в таблице →</button>
           </div>
+                  <p class="rc-action"></p>
         </article>
 
         <article class="rc-card" id="rc-politics-people">
@@ -531,6 +544,7 @@
             </div>
             <button class="link-btn report-drill" data-ds="politics" data-route="videos|theme|15|from|rc-politics-people">Смотреть эти видео в таблице →</button>
           </div>
+                  <p class="rc-action"></p>
         </article>
 
         <article class="rc-card" id="rc-politics-weak">
@@ -541,6 +555,7 @@
             <div class="rc-stat-row"></div>
             <button class="link-btn report-drill" data-ds="politics" data-route="videos|theme|13|from|rc-politics-weak">Видео по «Религия/национализм» →</button>
           </div>
+                  <p class="rc-action"></p>
         </article>
 
         <article class="rc-card" id="rc-politics-duration">
@@ -548,6 +563,7 @@
           <h3 class="rc-thesis"></h3>
           <p class="rc-explain"></p>
           <div class="rc-chart" id="rcChart-politics-duration"></div>
+                  <p class="rc-action"></p>
         </article>
 
         <article class="rc-card" id="rc-politics-hero">
@@ -558,6 +574,7 @@
             <div class="rc-stat-row"></div>
             <button class="link-btn report-drill" data-ds="politics" data-route="videos|hero|Романчук|from|rc-politics-hero">Видео с Романчуком →</button>
           </div>
+                  <p class="rc-action"></p>
         </article>
 
         <article class="rc-card" id="rc-politics-thf">
@@ -568,6 +585,7 @@
             <div class="rc-stat-row"></div>
             <button class="link-btn report-drill" data-ds="politics" data-route="videos|themeformat|10|дайджест|from|rc-politics-thf">Смотреть эти видео →</button>
           </div>
+                  <p class="rc-action"></p>
         </article>
       </div>
 
@@ -586,6 +604,7 @@
             <div class="rc-chart"><div class="rc-two-bar" id="rcChart-general-truecrime"></div></div>
             <button class="link-btn report-drill" data-ds="general" data-route="videos|theme|16|from|rc-general-truecrime">Смотреть эти видео →</button>
           </div>
+                  <p class="rc-action"></p>
         </article>
 
         <article class="rc-card" id="rc-general-auto-weak">
@@ -598,6 +617,7 @@
             <div class="rc-chart"><div class="rc-two-bar" id="rcChart-general-auto"></div></div>
             <button class="link-btn report-drill" data-ds="general" data-route="videos|theme|4|from|rc-general-auto-weak">Смотреть эти видео →</button>
           </div>
+                  <p class="rc-action"></p>
         </article>
 
         <article class="rc-card" id="rc-general-sport-combo">
@@ -608,6 +628,7 @@
             <div class="rc-stat-row"></div>
             <button class="link-btn report-drill" data-ds="general" data-route="videos|themeformat|13|обзор/тест|from|rc-general-sport-combo">Смотреть эти видео →</button>
           </div>
+                  <p class="rc-action"></p>
         </article>
 
         <article class="rc-card" id="rc-general-home-thin">
@@ -616,8 +637,9 @@
           <p class="rc-explain"></p>
           <div class="rc-data">
             <div class="rc-stat-row"></div>
-            <button class="link-btn report-drill" data-ds="general" data-route="videos|theme|10|from|rc-general-home-thin">Смотреть эти 2 видео →</button>
+            <button class="link-btn report-drill" data-ds="general" data-route="videos|theme|10|from|rc-general-home-thin">Смотреть это видео →</button>
           </div>
+                  <p class="rc-action"></p>
         </article>
       </div>
 
@@ -636,6 +658,7 @@
             <button class="link-btn report-drill" data-ds="travel" data-route="videos|theme|3|from|rc-travel-central-asia">Смотреть все эти видео →</button>
             <button class="link-btn report-drill" data-ds="travel" data-route="videos|themeformat|3|влог-маршрут|from|rc-travel-central-asia">Смотреть только влог-маршрут →</button>
           </div>
+                  <p class="rc-action"></p>
         </article>
 
         <article class="rc-card" id="rc-travel-postsoviet-cold">
@@ -646,6 +669,7 @@
             <div class="rc-stat-row"></div>
             <button class="link-btn report-drill" data-ds="travel" data-route="videos|theme|2|from|rc-travel-postsoviet-cold">Смотреть эти видео →</button>
           </div>
+                  <p class="rc-action"></p>
         </article>
       </div>
 
@@ -660,6 +684,7 @@
           <p class="rc-explain"></p>
           <div class="rc-chart" id="rcChart-cross-frequency"></div>
           <p class="rc-note"></p>
+                  <p class="rc-action"></p>
         </article>
 
         <article class="rc-card" id="rc-cross-hero">
@@ -667,6 +692,7 @@
           <h3 class="rc-thesis"></h3>
           <p class="rc-explain"></p>
           <button class="link-btn report-jump" data-jump="rc-politics-hero">См. карточку выше: эффект героя в политике →</button>
+                  <p class="rc-action"></p>
         </article>
 
         <article class="rc-card" id="rc-cross-duration">
@@ -674,6 +700,7 @@
           <h3 class="rc-thesis"></h3>
           <p class="rc-explain"></p>
           <button class="link-btn report-jump" data-jump="rc-politics-duration">См. карточку выше: хронометраж в политике →</button>
+                  <p class="rc-action"></p>
         </article>
       </div>
 
@@ -690,6 +717,7 @@
             <button class="link-btn report-jump" data-jump="rc-kz-regions">См. выше: «Регионы» в Казахстане →</button>
             <button class="link-btn report-jump" data-jump="rc-travel-central-asia">См. выше: Центральная Азия в тревеле →</button>
           </div>
+                  <p class="rc-action"></p>
         </article>
 
         <article class="rc-card" id="rc-city-crosscut-negative">
@@ -700,6 +728,7 @@
             <div class="rc-stat-row"></div>
             <button class="link-btn report-drill" data-ds="general" data-route="videos|search|метро|from|rc-city-crosscut-negative">Пример совпадений (поиск «метро») →</button>
           </div>
+                  <p class="rc-action"></p>
         </article>
 
         <article class="rc-card" id="rc-city-treshikrasota">
@@ -710,6 +739,19 @@
             <div class="rc-stat-row"></div>
             <button class="link-btn report-drill" data-ds="travel" data-route="videos|theme|4|from|rc-city-treshikrasota">Смотреть эти видео →</button>
           </div>
+                  <p class="rc-action"></p>
+        </article>
+      </div>
+
+      <!-- ===== Методика ===== -->
+      <div class="rc-section" id="rc-sec-methodology">
+        <h2 class="rc-section-title"></h2>
+        <p class="rc-section-sub"></p>
+
+        <article class="rc-card" id="rc-methodology-notes">
+          <div class="rc-kicker"></div>
+          <h3 class="rc-thesis"></h3>
+          <p class="rc-explain"></p>
         </article>
       </div>
 
