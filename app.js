@@ -85,15 +85,34 @@
   function youtubeChannelUrl(id){ return 'https://www.youtube.com/channel/' + encodeURIComponent(id); }
 
   // -------------------- meta line --------------------
-  (function initMeta(){
+  // На вкладке «Отчёт» строка в шапке не привязана к одному набору (сам
+  // отчёт сквозной по всем наборам) — показываем сумму по всем готовым
+  // наборам. На остальных вкладках — как раньше, цифры активного набора.
+  function renderMetaInfo(tabName){
     var el = document.getElementById('metaInfo');
-    var genAt = DATA.generated_at ? new Date(DATA.generated_at) : null;
+    if (!el) return;
     var parts = [];
-    parts.push(CHANNELS.length + ' каналов');
-    parts.push(VIDEOS.length + ' видео');
-    if (genAt && !isNaN(genAt.getTime())) parts.push('данные собраны ' + genAt.toLocaleDateString('ru-RU'));
+    if (tabName === 'report' && window.__DATASETS__ && window.__DATASETS__.sets) {
+      var sets = window.__DATASETS__.sets;
+      var readyKeys = Object.keys(sets).filter(function(k){ return sets[k].ready; });
+      var totalCh = 0, totalVid = 0;
+      readyKeys.forEach(function(k){
+        totalCh += sets[k].channels || 0;
+        totalVid += sets[k].videos || 0;
+      });
+      parts.push(totalCh + ' каналов');
+      parts.push(totalVid + ' видео');
+      parts.push(readyKeys.length + ' набора');
+      var genAt = window.__DATASETS__.generated_at ? new Date(window.__DATASETS__.generated_at) : null;
+      if (genAt && !isNaN(genAt.getTime())) parts.push('данные собраны ' + genAt.toLocaleDateString('ru-RU'));
+    } else {
+      var genAt2 = DATA.generated_at ? new Date(DATA.generated_at) : null;
+      parts.push(CHANNELS.length + ' каналов');
+      parts.push(VIDEOS.length + ' видео');
+      if (genAt2 && !isNaN(genAt2.getTime())) parts.push('данные собраны ' + genAt2.toLocaleDateString('ru-RU'));
+    }
     el.textContent = parts.join(' · ');
-  })();
+  }
 
   // -------------------- tabs --------------------
   var tabButtons = Array.prototype.slice.call(document.querySelectorAll('.tab-btn'));
@@ -120,6 +139,7 @@
     if (name === 'themes') renderThemeMap();
     if (name === 'formats') renderFormatMap();
     if (name === 'analytics') renderAnalyticsTab();
+    renderMetaInfo(name);
     updateBoundedTableHeights();
   }
 
