@@ -1,35 +1,35 @@
 window.__REPORT_DATA__ = {
- "generated_at": "2026-09-21",
+ "generated_at": "2026-09-22",
  "kz": {
   "themes": {
    "10": {
-    "videos": 130,
-    "channels": 19,
-    "ratio": 1.557,
+    "videos": 133,
+    "channels": 17,
+    "ratio": 1.511,
     "label": "Миграция"
    },
    "11": {
-    "videos": 95,
+    "videos": 94,
     "channels": 17,
-    "ratio": 1.422,
+    "ratio": 1.407,
     "label": "Происшествия и криминал"
    },
    "7": {
-    "videos": 23,
+    "videos": 36,
     "channels": 12,
-    "ratio": 1.252,
+    "ratio": 1.219,
     "label": "Регионы"
    },
    "5": {
-    "videos": 206,
+    "videos": 207,
     "channels": 29,
-    "ratio": 1.1,
+    "ratio": 1.011,
     "label": "Города и инфраструктура"
    },
    "13": {
     "videos": 29,
     "channels": 17,
-    "ratio": 0.591,
+    "ratio": 0.823,
     "label": "Семья/психология"
    }
   },
@@ -39,73 +39,73 @@ window.__REPORT_DATA__ = {
     "demand_median_ratio": null
    },
    "3-10 мин": {
-    "video_count": 863,
-    "demand_median_ratio": 0.84
+    "video_count": 872,
+    "demand_median_ratio": 0.878
    },
    "10-20 мин": {
-    "video_count": 800,
-    "demand_median_ratio": 1.032
+    "video_count": 903,
+    "demand_median_ratio": 1.037
    },
    "20-30 мин": {
-    "video_count": 373,
-    "demand_median_ratio": 1.087
+    "video_count": 390,
+    "demand_median_ratio": 1.056
    },
    "30-45 мин": {
-    "video_count": 275,
-    "demand_median_ratio": 1.042
+    "video_count": 328,
+    "demand_median_ratio": 0.998
    },
    "45-60 мин": {
-    "video_count": 238,
-    "demand_median_ratio": 1.235
+    "video_count": 227,
+    "demand_median_ratio": 1.209
    },
    "60+ мин": {
-    "video_count": 282,
-    "demand_median_ratio": 1.072
+    "video_count": 311,
+    "demand_median_ratio": 1.03
    }
   }
  },
  "politics": {
   "themes": {
    "7": {
-    "videos": 36,
-    "channels": 16,
-    "ratio": 1.34,
+    "videos": 37,
+    "channels": 15,
+    "ratio": 1.218,
     "label": "Эмиграция и релокация"
    },
    "15": {
-    "videos": 145,
-    "channels": 16,
-    "ratio": 1.376,
+    "videos": 160,
+    "channels": 18,
+    "ratio": 1.078,
     "label": "Люди и судьбы"
    },
    "13": {
-    "videos": 71,
-    "channels": 20,
-    "ratio": 0.311,
+    "videos": 77,
+    "channels": 21,
+    "ratio": 0.444,
     "label": "Религия, национализм, идентичность"
    },
    "16": {
-    "videos": 110,
-    "channels": 22,
-    "ratio": 0.524,
+    "videos": 122,
+    "channels": 24,
+    "ratio": 0.706,
     "label": "Технологии и цифровые свободы"
    },
    "10": {
-    "videos": 162,
-    "channels": 32,
-    "ratio": 1.158,
+    "videos": 161,
+    "channels": 33,
+    "ratio": 1.235,
     "label": "Общество и социалка"
    },
    "1": {
-    "videos": 5645,
+    "videos": 5520,
     "channels": 60,
-    "ratio": 1.053,
+    "ratio": 1.045,
     "label": "Война — фронт, сводки, военный анализ"
    }
   },
   "month_people": {
-   "first_half": 110,
-   "second_half": 35
+   "first_half": 99,
+   "second_half": 61
   },
   "duration": {
    "<3 мин": {
@@ -113,62 +113,62 @@ window.__REPORT_DATA__ = {
     "demand_median_ratio": null
    },
    "3-10 мин": {
-    "video_count": 2238,
-    "demand_median_ratio": 0.894
+    "video_count": 2197,
+    "demand_median_ratio": 0.877
    },
    "10-20 мин": {
-    "video_count": 4242,
-    "demand_median_ratio": 0.921
+    "video_count": 4266,
+    "demand_median_ratio": 0.922
    },
    "20-30 мин": {
-    "video_count": 2943,
-    "demand_median_ratio": 1.019
+    "video_count": 2964,
+    "demand_median_ratio": 1.01
    },
    "30-45 мин": {
-    "video_count": 2400,
-    "demand_median_ratio": 1.377
+    "video_count": 2405,
+    "demand_median_ratio": 1.369
    },
    "45-60 мин": {
     "video_count": 1354,
-    "demand_median_ratio": 1.189
+    "demand_median_ratio": 1.155
    },
    "60+ мин": {
-    "video_count": 1595,
-    "demand_median_ratio": 1.147
+    "video_count": 1589,
+    "demand_median_ratio": 1.144
    }
   },
-  "freq_corr_eng": -0.16,
-  "freq_corr_subs": -0.231,
+  "freq_corr_eng": -0.163,
+  "freq_corr_subs": -0.106,
   "hero_top": [
    {
-    "hero": "Романчук",
-    "n": 5,
-    "median_ratio": 11.024
+    "hero": "Шахназаров",
+    "n": 3,
+    "median_ratio": 7.999
+   },
+   {
+    "hero": "Чигиринский",
+    "n": 3,
+    "median_ratio": 7.901
    },
    {
     "hero": "Штилерман",
     "n": 8,
-    "median_ratio": 7.989
-   },
-   {
-    "hero": "Шахназаров",
-    "n": 3,
-    "median_ratio": 7.875
+    "median_ratio": 7.646
    },
    {
     "hero": "Гинзбург",
     "n": 5,
-    "median_ratio": 6.268
+    "median_ratio": 6.356
    },
    {
     "hero": "Куницын",
     "n": 14,
-    "median_ratio": 5.816
+    "median_ratio": 6.231
    },
    {
-    "hero": "Ракша",
+    "hero": "Романчук",
     "n": 5,
-    "median_ratio": 5.469
+    "median_ratio": 6.027
    }
   ],
   "hero_no_hero_ratio": 1.0
@@ -176,51 +176,51 @@ window.__REPORT_DATA__ = {
  "general": {
   "themes": {
    "16": {
-    "videos": 26,
-    "channels": 7,
-    "ratio": 0.841,
+    "videos": 27,
+    "channels": 6,
+    "ratio": 0.903,
     "label": "True crime и расследования"
    },
    "4": {
-    "videos": 166,
-    "channels": 21,
-    "ratio": 1.022,
+    "videos": 163,
+    "channels": 20,
+    "ratio": 1.037,
     "label": "Авто, мото, транспорт"
    },
    "10": {
     "videos": 1,
     "channels": 1,
-    "ratio": 0.494,
+    "ratio": 0.489,
     "label": "Дом, стройка, ремонт"
    },
    "13": {
     "videos": 654,
-    "channels": 12,
-    "ratio": 1.071,
+    "channels": 13,
+    "ratio": 1.11,
     "label": "Большой спорт"
    }
   },
   "month_truecrime": {
    "first_half": 10,
-   "second_half": 16
+   "second_half": 17
   },
   "month_auto": {
-   "first_half": 72,
-   "second_half": 94
+   "first_half": 67,
+   "second_half": 96
   }
  },
  "travel": {
   "themes": {
    "3": {
-    "videos": 82,
-    "channels": 4,
-    "ratio": 1.404,
+    "videos": 86,
+    "channels": 5,
+    "ratio": 1.215,
     "label": "Центральная Азия"
    },
    "2": {
     "videos": 15,
     "channels": 5,
-    "ratio": 0.589,
+    "ratio": 0.556,
     "label": "Постсоветское пространство и Кавказ"
    },
    "4": {
@@ -231,41 +231,41 @@ window.__REPORT_DATA__ = {
    }
   },
   "month_central_asia": {
-   "first_half": 44,
-   "second_half": 38
+   "first_half": 43,
+   "second_half": 43
   }
  },
  "cross": {
   "freq_corr_subsratio": {
-   "kz": -0.212,
-   "general": -0.203,
-   "politics": -0.231,
-   "travel": -0.249
+   "kz": -0.172,
+   "general": -0.202,
+   "politics": -0.106,
+   "travel": -0.239
   }
  },
  "city_crosscut": {
   "general": {
-   "matched": 33,
-   "total": 2688,
-   "matched_ratio": 1.019,
-   "rest_ratio": 1.022
+   "matched": 35,
+   "total": 2696,
+   "matched_ratio": 1.0,
+   "rest_ratio": 1.025
   },
   "politics": {
-   "matched": 309,
-   "total": 14772,
-   "matched_ratio": 1.05,
-   "rest_ratio": 1.038
+   "matched": 319,
+   "total": 14775,
+   "matched_ratio": 1.052,
+   "rest_ratio": 1.028
   }
  },
  "card_stats": {
   "rc-kz-regions": [
    {
-    "val": "1.25×",
+    "val": "1.22×",
     "lbl": "спрос",
     "cls": "rc-pos"
    },
    {
-    "val": "23",
+    "val": "36",
     "lbl": "видео",
     "cls": ""
    },
@@ -277,12 +277,12 @@ window.__REPORT_DATA__ = {
   ],
   "rc-kz-cities-saturated": [
    {
-    "val": "1.10×",
+    "val": "1.01×",
     "lbl": "спрос",
     "cls": ""
    },
    {
-    "val": "206",
+    "val": "207",
     "lbl": "видео",
     "cls": ""
    },
@@ -294,29 +294,29 @@ window.__REPORT_DATA__ = {
   ],
   "rc-kz-migration": [
    {
-    "val": "1.56×",
+    "val": "1.51×",
     "lbl": "спрос",
     "cls": "rc-pos"
    },
    {
-    "val": "130",
+    "val": "133",
     "lbl": "видео",
     "cls": ""
    },
    {
-    "val": "19",
+    "val": "17",
     "lbl": "каналов",
     "cls": ""
    }
   ],
   "rc-kz-incidents": [
    {
-    "val": "1.42×",
+    "val": "1.41×",
     "lbl": "спрос",
     "cls": "rc-pos"
    },
    {
-    "val": "95",
+    "val": "94",
     "lbl": "видео",
     "cls": ""
    },
@@ -328,59 +328,59 @@ window.__REPORT_DATA__ = {
   ],
   "rc-politics-emigration": [
    {
-    "val": "1.34×",
+    "val": "1.22×",
     "lbl": "спрос",
     "cls": "rc-pos"
    },
    {
-    "val": "36",
+    "val": "37",
     "lbl": "видео",
     "cls": ""
    },
    {
-    "val": "16",
+    "val": "15",
     "lbl": "каналов",
     "cls": ""
    }
   ],
   "rc-politics-people": [
    {
-    "val": "1.38×",
+    "val": "1.08×",
     "lbl": "спрос",
-    "cls": "rc-pos"
+    "cls": ""
    },
    {
-    "val": "145",
+    "val": "160",
     "lbl": "видео всего",
     "cls": ""
    },
    {
-    "val": "16",
+    "val": "18",
     "lbl": "каналов",
     "cls": ""
    }
   ],
   "rc-politics-weak": [
    {
-    "val": "0.31×",
+    "val": "0.44×",
     "lbl": "Религия/нац.",
     "cls": "rc-neg"
    },
    {
-    "val": "0.52×",
+    "val": "0.71×",
     "lbl": "Цифр. свободы",
     "cls": "rc-neg"
    }
   ],
   "rc-politics-hero": [
    {
-    "val": "11.0×",
+    "val": "6.0×",
     "lbl": "Романчук",
     "cls": "rc-pos"
    },
    {
     "val": "8.0×",
-    "lbl": "Штилерман",
+    "lbl": "Шахназаров",
     "cls": "rc-pos"
    },
    {
@@ -391,8 +391,8 @@ window.__REPORT_DATA__ = {
   ],
   "rc-politics-thf": [
    {
-    "val": "3.22×",
-    "lbl": "соц. + дайджест, n=47",
+    "val": "3.75×",
+    "lbl": "соц. + дайджест, n=45",
     "cls": "rc-pos"
    },
    {
@@ -403,67 +403,60 @@ window.__REPORT_DATA__ = {
   ],
   "rc-general-truecrime": [
    {
-    "val": "0.84×",
+    "val": "0.90×",
     "lbl": "спрос",
-    "cls": "rc-neg"
+    "cls": ""
    },
    {
-    "val": "7",
+    "val": "6",
     "lbl": "каналов",
     "cls": ""
    }
   ],
   "rc-general-auto-weak": [
    {
-    "val": "1.02×",
+    "val": "1.04×",
     "lbl": "спрос",
     "cls": ""
    },
    {
-    "val": "21",
+    "val": "20",
     "lbl": "каналов",
     "cls": ""
    }
   ],
   "rc-general-sport-combo": [
    {
-    "val": "1.62×",
-    "lbl": "спорт + обзор/тест, n=278",
+    "val": "1.75×",
+    "lbl": "спорт + обзор/тест, n=251",
     "cls": "rc-pos"
-   }
-  ],
-  "rc-general-home-thin": [
-   {
-    "val": "1",
-    "lbl": "видео",
-    "cls": ""
    }
   ],
   "rc-travel-central-asia": [
    {
-    "val": "1.40×",
+    "val": "1.22×",
     "lbl": "спрос",
     "cls": "rc-pos"
    },
    {
-    "val": "4",
-    "lbl": "канала",
+    "val": "5",
+    "lbl": "каналов",
     "cls": ""
    },
    {
-    "val": "82",
+    "val": "86",
     "lbl": "видео",
     "cls": ""
    },
    {
-    "val": "1.39×",
-    "lbl": "из них влог-маршрут, n=70",
-    "cls": "rc-pos"
+    "val": "1.15×",
+    "lbl": "из них влог-маршрут, n=73",
+    "cls": ""
    }
   ],
   "rc-travel-postsoviet-cold": [
    {
-    "val": "0.59×",
+    "val": "0.56×",
     "lbl": "спрос",
     "cls": "rc-neg"
    },
@@ -487,13 +480,13 @@ window.__REPORT_DATA__ = {
   ],
   "rc-city-crosscut-negative": [
    {
-    "val": "33/2688",
-    "lbl": "общий, ratio 1.02 vs 1.02",
+    "val": "35/2696",
+    "lbl": "общий, ratio 1.00 vs 1.02",
     "cls": ""
    },
    {
-    "val": "309/14772",
-    "lbl": "политика, ratio 1.05 vs 1.04",
+    "val": "319/14775",
+    "lbl": "политика, ratio 1.05 vs 1.03",
     "cls": ""
    }
   ]
@@ -502,27 +495,27 @@ window.__REPORT_DATA__ = {
   "rc-kz-regions": [
    {
     "kind": "median",
-    "video_id": "AANVzh-ATgY",
-    "title": "Казахстанцы возвращаются в села: что ждет их там на самом деле?",
-    "views": 13276,
-    "channel": "Паша Шамин",
-    "ratio": 2.22
+    "video_id": "J6PjzXmc8po",
+    "title": "Отсюда не хочется уезжать. Денисовка",
+    "views": 9096,
+    "channel": "другие места | tashkinbayev",
+    "ratio": 0.79
    },
    {
     "kind": "standout",
     "video_id": "6qGG35XvkUk",
     "title": "Греки, холод и один завод: как Кентау пережил 90-е",
-    "views": 93242,
+    "views": 93426,
     "channel": "KURSIV MEDIA",
-    "ratio": 2.12
+    "ratio": 2.11
    },
    {
     "kind": "standout",
-    "video_id": "dES4RdwIdS4",
-    "title": "«Тобыл бойындағы толымды істер» | Деректі фильм",
-    "views": 41984,
-    "channel": "TV & Radio Complex of the President of Kazakhstan",
-    "ratio": 1.25
+    "video_id": "MZ3-cPyh93Q",
+    "title": "Казахские авто, аквапарк и новые отели. Другой Костанай",
+    "views": 52090,
+    "channel": "другие места | tashkinbayev",
+    "ratio": 4.51
    }
   ],
   "rc-kz-cities-saturated": [
@@ -530,155 +523,155 @@ window.__REPORT_DATA__ = {
     "kind": "median",
     "video_id": "mHSE7tEHrKo",
     "title": "Пожары, свалки и выбросы: эксклюзивное интервью с министром экологии",
-    "views": 4594,
+    "views": 4612,
     "channel": "BAQ KZ / rus",
-    "ratio": 9.29
+    "ratio": 9.03
    },
    {
     "kind": "standout",
     "video_id": "UAR92dPBqTA",
     "title": "Президент запретил, премьер-министр разрешил? Знаменитый Норман Фостер приложил руки к Кок-Жайлау",
-    "views": 135713,
+    "views": 135742,
     "channel": "Elmedia Kazakhstan",
-    "ratio": 1.54
+    "ratio": 1.46
    },
    {
     "kind": "standout",
     "video_id": "h3dZhXmPhNU",
     "title": "Прорыв плотины под Астаной. Задержка товаров из Ирана в Таджикистан. Отстрел собак в приюте Бишкека",
-    "views": 111586,
+    "views": 111600,
     "channel": "Азаттык Азия",
-    "ratio": 3.03
+    "ratio": 3.18
    }
   ],
   "rc-kz-migration": [
    {
     "kind": "median",
-    "video_id": "JLVcKx9kpk4",
-    "title": "УЕХАТЬ ИЗ КАЗАХСТАНА В РОССИЮ В 2026? ЧЕСТНЫЙ РАЗБОР",
-    "views": 7045,
-    "channel": "Паша Шамин",
-    "ratio": 1.18
+    "video_id": "VX2dgwEs8d4",
+    "title": "Переезд Россия → Казахстан: нас правда здесь не ждут? | Реакция KOLA KZ",
+    "views": 6429,
+    "channel": "KOLA KZ",
+    "ratio": 0.8
    },
    {
     "kind": "standout",
     "video_id": "ZbypxHEdCw8",
     "title": "В США через Карибы: две семьи из Узбекистана пропали по пути через острова",
-    "views": 279978,
+    "views": 280281,
     "channel": "Азаттык Азия",
-    "ratio": 7.6
+    "ratio": 8.0
    },
    {
     "kind": "standout",
     "video_id": "DC9BvccVARk",
     "title": "Братья Кличко вернулись в Казахстан спустя 30 лет — места их детства | Реакция KOLA KZ",
-    "views": 168697,
+    "views": 176480,
     "channel": "KOLA KZ",
-    "ratio": 20.61
+    "ratio": 21.93
    }
   ],
   "rc-kz-incidents": [
    {
     "kind": "median",
-    "video_id": "cufcZWIXsS8",
-    "title": "СЕАНС РАЗОБЛАЧЕНИЯ. Как полиция провела осмотр места аварии. Суд по ДТП на аль-Фараби. 15 июня. 2 ч.",
-    "views": 20123,
-    "channel": "ГИПЕРБОРЕЙ",
-    "ratio": 1.05
+    "video_id": "O5JV1JwXky8",
+    "title": "Шашлык на Вечном огне / Блогер на солях / Вандалы на внедорожниках / Тверк у памятника",
+    "views": 17911,
+    "channel": "SREDA",
+    "ratio": 0.55
    },
    {
     "kind": "standout",
     "video_id": "XG5ZNJyx3aI",
     "title": "Насиловали женщин при мужьях, поджигали дома: как в 90-х девушку из аула сломали и растоптали ",
-    "views": 921638,
+    "views": 935412,
     "channel": "ORDA News",
-    "ratio": 19.81
+    "ratio": 18.52
    },
    {
     "kind": "standout",
     "video_id": "XC8EHZ8ybdk",
     "title": "Гибель на первом свидании: что скрывает единственный свидетель?",
-    "views": 414981,
+    "views": 415943,
     "channel": "KURSIV MEDIA",
-    "ratio": 9.41
+    "ratio": 9.4
    }
   ],
   "rc-politics-emigration": [
    {
     "kind": "median",
-    "video_id": "sCQewOWc5uU",
-    "title": "Новая волна запросов на эмиграцию: что изменилось перед осенью и где сейчас легализоваться россиянам",
-    "views": 34092,
-    "channel": "Живой Гвоздь",
-    "ratio": 0.85
+    "video_id": "o2LSsLXkWlc",
+    "title": "Мансуру Мовлаеву отказано в убежище. Казахстан небезопасен для политэмигрантов из России?",
+    "views": 32951,
+    "channel": "Радио Свобода",
+    "ratio": 0.51
    },
    {
     "kind": "standout",
     "video_id": "irQDve2My9Y",
     "title": "Досмотр на российской границе. Кто в зоне риска? | Допросы уехавших, вопросы про ВСУ",
-    "views": 1595951,
+    "views": 1616585,
     "channel": "varlamov",
-    "ratio": 1.37
+    "ratio": 1.34
    },
    {
     "kind": "standout",
     "video_id": "06H8O-u-3Nk",
     "title": "⚡️НОВОСТИ | ВЗРЫВ У РЕЗИДЕНЦИИ ПУТИНА | СМЕРТЬ ДИКТАТОРА В МОСКВЕ | ВНЖ ПРОПАГАНДИСТКИ | ЛОЖЬ ТРАМПА",
-    "views": 408982,
+    "views": 619663,
     "channel": "Ходорковский LIVE",
-    "ratio": 1.31
+    "ratio": 1.97
    }
   ],
   "rc-politics-people": [
    {
     "kind": "median",
-    "video_id": "FIJnoAafZEk",
-    "title": "Как украинки с криминальным прошлым воюют в ВСУ",
-    "views": 29653,
-    "channel": "DW репортажи",
-    "ratio": 2.53
+    "video_id": "pRE2TiHSO6Y",
+    "title": "Легенда \"Динамо\" Бессонов: Все, кто находится в России, – мои враги! #shorts",
+    "views": 20660,
+    "channel": "Дмитрий Гордон",
+    "ratio": 1.32
    },
    {
     "kind": "standout",
     "video_id": "0gvtAvT-xQ0",
     "title": "Моргенштерн – рехаб, Лиза, новое имя, новая жизнь / вДудь",
-    "views": 17619678,
+    "views": 18454933,
     "channel": "вДудь",
-    "ratio": 6.23
+    "ratio": 6.47
    },
    {
     "kind": "standout",
     "video_id": "kndB4CqUjyU",
     "title": "Сичкарь: Прихожу домой к мужу, а на диване сидит молоденькая девочка #shorts",
-    "views": 1345822,
+    "views": 1347183,
     "channel": "Дмитрий Гордон",
-    "ratio": 89.79
+    "ratio": 86.03
    }
   ],
   "rc-politics-weak": [
    {
     "kind": "median",
-    "video_id": "YsAiKLjdmTI",
-    "title": "Новое правительство Венгрии встанет на защиту ЛГБТК+?",
-    "views": 6416,
-    "channel": "DW на русском",
-    "ratio": 0.2
+    "video_id": "m0rnlzZ3vFk",
+    "title": "Зачем Путин и РПЦ \"мобилизовали\" мощи князя, умершего века назад",
+    "views": 7232,
+    "channel": "ВОТ ТАК NOW",
+    "ratio": 0.57
    },
    {
     "kind": "standout",
     "video_id": "leMxeNn1azs",
     "title": "Гитлер воскрес. Фашизм вернулся в ЕС!",
-    "views": 1317372,
+    "views": 1347511,
     "channel": "Анатолий Шарий",
-    "ratio": 1.39
+    "ratio": 1.38
    },
    {
     "kind": "standout",
     "video_id": "gVwPz96FfX0",
     "title": "⚡️НОВОСТИ | АВИАКАТАСТРОФА С ПЕВЦОМ | АВАРИЯ В МОСКВЕ | ДРОНЫ: УДАРЫ | РПЦ ИСПОРТИЛА ИКОНУ РУБЛЕВА",
-    "views": 656172,
+    "views": 896302,
     "channel": "Ходорковский LIVE",
-    "ratio": 2.11
+    "ratio": 2.85
    }
   ],
   "rc-politics-hero": [
@@ -688,7 +681,7 @@ window.__REPORT_DATA__ = {
     "title": "Ярослав Романчук. Горькая правда. Почему нас грабит государство?",
     "views": 10616,
     "channel": "Давид Гай. Моменты истины",
-    "ratio": 11.02
+    "ratio": 6.03
    },
    {
     "kind": "standout",
@@ -696,7 +689,7 @@ window.__REPORT_DATA__ = {
     "title": "Россия вопит из-за неба. Тюрьма для Мониавы. Ярослав Романчук про Саакашвили",
     "views": 16163,
     "channel": "Давид Гай. Моменты истины",
-    "ratio": 16.78
+    "ratio": 9.18
    },
    {
     "kind": "standout",
@@ -704,17 +697,17 @@ window.__REPORT_DATA__ = {
     "title": "Владимир Соловьёв и Игорь Липсис дали  прогнозы по России. Ярослав Романчук и Светлана Герасимова",
     "views": 10715,
     "channel": "Давид Гай. Моменты истины",
-    "ratio": 11.13
+    "ratio": 6.08
    }
   ],
   "rc-politics-thf": [
    {
     "kind": "median",
-    "video_id": "EDTvGj3mISc",
-    "title": "Грэм: НПЗ Путина сдали, шантаж Кремля, Крым — Федоров, Шейтельман, Левиев, Ракша",
-    "views": 92879,
-    "channel": "И Грянул Грэм",
-    "ratio": 0.75
+    "video_id": "k-uLxmE2Qto",
+    "title": "Ржака. №591. Обманутый россиянин. Закопанная Монтян, бензин с духом Анкориджа, канава справедливости",
+    "views": 94013,
+    "channel": "В гостях у Гордона",
+    "ratio": 5.26
    },
    {
     "kind": "standout",
@@ -722,129 +715,119 @@ window.__REPORT_DATA__ = {
     "title": "⚡️НОВОСТИ | МОСКВА ПЕРЕКРЫТА | АВИАТОПЛИВО НА ИСХОДЕ | КАТАСТРОФА ЖКХ | В КРЫМУ ПРОПАДАЕТ ЕДА",
     "views": 488873,
     "channel": "Ходорковский LIVE",
-    "ratio": 1.57
+    "ratio": 1.56
    },
    {
     "kind": "standout",
     "video_id": "KL9RRQCKIqI",
     "title": "Отмена рейсов из Турции в Россию. Школьник напал на учителя в Подмосковье. Путин во Владивостоке",
-    "views": 434391,
+    "views": 436333,
     "channel": "Телеканал Дождь",
-    "ratio": 1.6
+    "ratio": 1.58
    }
   ],
   "rc-general-truecrime": [
    {
     "kind": "median",
-    "video_id": "HC-1jli2BMg",
-    "title": "Пара серийных убийц | Кем на самом деле были Чарльз Старквезер и Кэрил Фьюгейт? Мутер Фауст",
-    "views": 211369,
-    "channel": "Faust21century",
-    "ratio": 0.91
+    "video_id": "qPwahzCB6_8",
+    "title": "Почему глухие отказываются от слуха?",
+    "views": 193886,
+    "channel": "Саша Сулим",
+    "ratio": 0.78
    },
    {
     "kind": "standout",
     "video_id": "xZWap4yD2bY",
     "title": "Дело Анны Цомартовой | Сатисфакция 21 | Что произошло в Каспийске? Faust 21 Century",
-    "views": 677939,
+    "views": 712697,
     "channel": "Faust21century",
-    "ratio": 2.92
+    "ratio": 3.06
    },
    {
     "kind": "standout",
-    "video_id": "aok_BWbVWhA",
-    "title": "Все, что известно о покушении на Кудринской площади. Спецвыпуск Редакции",
-    "views": 662240,
-    "channel": "Редакция",
-    "ratio": 0.62
+    "video_id": "76VHld_y4VU",
+    "title": "УКРАИНЕЦ УБИЛ СВОИХ РОДИТЕЛЕЙ В США",
+    "views": 494475,
+    "channel": "Неслабо Нервный",
+    "ratio": 1.96
    }
   ],
   "rc-general-auto-weak": [
    {
     "kind": "median",
-    "video_id": "YaaIoqOmo-Y",
-    "title": "D3 EXLANTIX ES: Чем дальше, тем интереснее!",
-    "views": 165345,
+    "video_id": "Y1itVAJeD7E",
+    "title": "D3 VOYAH TAISHAN  ",
+    "views": 175379,
     "channel": "smotraTV",
-    "ratio": 0.78
+    "ratio": 0.84
    },
    {
     "kind": "standout",
     "video_id": "MT1NeeIJMv8",
     "title": "Marcin Glowacki Stunt Show",
-    "views": 3530758,
+    "views": 3585196,
     "channel": "Stuntexru",
-    "ratio": 55.33
+    "ratio": 55.0
    },
    {
     "kind": "standout",
     "video_id": "w38JoJ3wy_0",
     "title": "НАСТОЯЩИЙ МОТОР за 100.000 руб с Wildberries - ЗАВЕДЕТСЯ?",
-    "views": 2608100,
+    "views": 2713594,
     "channel": "Гараж 54",
-    "ratio": 7.49
+    "ratio": 7.68
    }
   ],
   "rc-general-sport-combo": [
    {
     "kind": "median",
-    "video_id": "zbLpKH0izTk",
-    "title": "МЕТАЛЛУРГ - СИБИРЬ | КХЛ Обзор Кубка Гагарина 2026 | Матч №5 | 1.04.2026",
-    "views": 42218,
+    "video_id": "-4yGDdL2KUo",
+    "title": "МЕТАЛЛУРГ - СИБИРЬ | КХЛ Обзор Кубка Гагарина 2026 | Матч №1 | 24.03.2026",
+    "views": 48768,
     "channel": "КХЛ",
-    "ratio": 1.78
+    "ratio": 1.81
    },
    {
     "kind": "standout",
     "video_id": "Vz5s6uc0O4k",
     "title": "ЛОКОМОТИВ - АВАНГАРД | КХЛ Обзор Кубка Гагарина 2026 | Матч №7 | 6.05.2026",
-    "views": 217853,
+    "views": 219022,
     "channel": "КХЛ",
-    "ratio": 9.21
+    "ratio": 8.12
    },
    {
     "kind": "standout",
     "video_id": "kGj4_Nnw8Mc",
     "title": "ЦЫПЛЕНКОВ VS ПОЛИЦЕЙСКИЙ ГИГАНТ. Денис дал огня. Армрестлинг",
-    "views": 184594,
+    "views": 184830,
     "channel": "Body Mania",
-    "ratio": 3.73
-   }
-  ],
-  "rc-general-home-thin": [
-   {
-    "kind": "standout",
-    "video_id": "FCoXfin_Dmc",
-    "title": "Мультитул. Я его боялся, пока не разобрался.",
-    "views": 87914,
-    "channel": "Стройхак",
-    "ratio": 0.49
+    "ratio": 3.7
    }
   ],
   "rc-travel-central-asia": [
    {
     "kind": "median",
-    "video_id": "ZpkHYndP0EE",
-    "title": "Каскеленская верхняя дорога, 2026 год. Верхняя Каскеленская трасса.",
-    "views": 12522,
+    "video_id": "ok0lngo4b0A",
+    "title": "Обзор на Jetour T1 в Казахстане. Плюсы и минусы. Отзыв на Джетур Т1",
+    "views": 12805,
     "channel": "Alimbek ULAN",
-    "ratio": 1.52
+    "ratio": 1.26
    },
    {
     "kind": "standout",
     "video_id": "2BnIHjTRsPI",
     "title": "72 часа говорим ТОЛЬКО «ДА» в Казахстане!",
-    "views": 4641474,
+    "views": 4712728,
     "channel": "Petya English",
-    "ratio": 1.41
+    "ratio": 1.43
    },
    {
     "kind": "standout",
     "video_id": "a4oIz3X1tXE",
     "title": "УЗБЕКИСТАН / вот оно, хваленое гостеприимство! / Uzbekistan, Fergana",
-    "views": 403177,
+    "views": 404881,
     "channel": "Планетка",
-    "ratio": 0.86
+    "ratio": 0.83
    }
   ],
   "rc-travel-postsoviet-cold": [
@@ -852,43 +835,51 @@ window.__REPORT_DATA__ = {
     "kind": "median",
     "video_id": "OmxtyOuwP4Y",
     "title": "Прямой рейс Алматы - Баку. Цены, еда и сервис. Честный обзор перелёта в 2026 году.",
-    "views": 8250,
+    "views": 8283,
     "channel": "Alimbek ULAN",
-    "ratio": 1.0
+    "ratio": 0.81
    },
    {
     "kind": "standout",
     "video_id": "y1hS0K3_HVo",
     "title": "Долгий путь домой из Южной Америки в Беларусь. ч.29",
-    "views": 215940,
+    "views": 230190,
     "channel": "Andrei Beresnevich",
-    "ratio": 1.38
+    "ratio": 1.45
    },
    {
     "kind": "standout",
     "video_id": "GPPPybzbmI8",
     "title": "Я арендовал вертолет, чтобы съесть лучшие хинкали в Грузии",
-    "views": 105709,
+    "views": 106944,
     "channel": "ХОЧУ ДОМОЙ",
-    "ratio": 0.54
+    "ratio": 0.56
    }
   ],
   "rc-city-crosscut-negative": [
    {
+    "kind": "median",
+    "video_id": "W9X4YBm6tyQ",
+    "title": "БИТВА ДВУХМЕТРОВЫХ ГИГАНТОВ! Быстрая победа в главном бою! Денис Смолдарев - Евгений Гурьянов",
+    "views": 4007,
+    "channel": "M-1 Global Rus",
+    "ratio": 0.27
+   },
+   {
     "kind": "standout",
     "video_id": "wJytMmaZwAs",
     "title": "Что нашли под льдами Антарктиды? Первое в истории бурение на 500+ метров!",
-    "views": 96740,
+    "views": 96830,
     "channel": "Другая История",
     "ratio": 0.73
    },
    {
     "kind": "standout",
-    "video_id": "W9X4YBm6tyQ",
-    "title": "БИТВА ДВУХМЕТРОВЫХ ГИГАНТОВ! Быстрая победа в главном бою! Денис Смолдарев - Евгений Гурьянов",
-    "views": 3983,
+    "video_id": "sxlNNfRLdUE",
+    "title": "СКАНДАЛ в битве ДВУХМЕТРОВЫХ ГИГАНТОВ! Кто же прав в бою реально ОГРОМНЫХ бойцов?",
+    "views": 7545,
     "channel": "M-1 Global Rus",
-    "ratio": 0.27
+    "ratio": 0.52
    }
   ],
   "rc-city-treshikrasota": [
@@ -896,25 +887,25 @@ window.__REPORT_DATA__ = {
     "kind": "median",
     "video_id": "yM183DSnrTA",
     "title": "Путешествие в Китай! Неужели круче Японии?!",
-    "views": 157295,
+    "views": 169431,
     "channel": "elivosk",
-    "ratio": 3.53
+    "ratio": 3.52
    },
    {
     "kind": "standout",
     "video_id": "2bQKdhCKZh0",
     "title": "Япония: Проехали ВСЮ СТРАНУ ради ОСТРОВА КОТОВ",
-    "views": 3475465,
+    "views": 3795867,
     "channel": "Petya English",
-    "ratio": 1.05
+    "ratio": 1.15
    },
    {
     "kind": "standout",
-    "video_id": "jMZ7jxj7rVg",
-    "title": "Релакс в Японии: как отдыхает самая уставшая нация на Земле | Япония, Кароси, онсэн",
-    "views": 1206125,
-    "channel": "Varlamov Travel",
-    "ratio": 1.83
+    "video_id": "jG0DtkH87Jc",
+    "title": "Япония Запретов: Красные фонари Токио, Се*с-отели, Облава полиции / Как Люди Живут @anton_lyadov",
+    "views": 1299079,
+    "channel": "The Люди",
+    "ratio": 2.05
    }
   ]
  }

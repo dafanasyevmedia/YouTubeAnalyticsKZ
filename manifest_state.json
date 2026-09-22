@@ -1,22 +1,22 @@
 {
  "kz": {
   "channels": 83,
-  "videos": 2989,
-  "bytes": 1389357
+  "videos": 3031,
+  "bytes": 1403165
  },
  "politics": {
   "channels": 79,
-  "videos": 14777,
-  "bytes": 6934609
+  "videos": 14775,
+  "bytes": 6926182
  },
  "general": {
   "channels": 91,
-  "videos": 2688,
-  "bytes": 1172085
+  "videos": 2696,
+  "bytes": 1174356
  },
  "travel": {
   "channels": 39,
-  "videos": 589,
-  "bytes": 285816
+  "videos": 594,
+  "bytes": 287970
  }
 }
